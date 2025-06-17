@@ -1,31 +1,35 @@
-# 🛍️ Product Listing App
+# 🛍️ Product Listing using React
 
-A responsive and interactive product listing page built with **React** and **Tailwind CSS**, allowing users to search, filter, and sort products fetched from a dummy API.
+A responsive and interactive product listing application built with **React** and **Tailwind CSS**, featuring search, filtering, sorting, and "Add to Cart" functionality.
 
-## 📌 Features
-
-- 🔍 **Search**: Filter products by name
-- 🗂️ **Category Filter**: Filter products by category
-- 📊 **Sort Options**: Sort by price and rating
-- 🛒 **Add to Cart**: Log product name on click (with toast notification)
-- 🖼️ **Grid Layout**: Responsive design using Tailwind CSS
-- 🧱 **Reusable Components**: Header, Footer, Products
-- 📦 **Data Source**: [FakeStore API](https://fakestoreapi.com/products)
+🚀 **Live Demo**: [View on GitHub Pages](https://lavanyacs.github.io/Product-listing-using-React/)
 
 ---
 
-## 🚀 Getting Started
+## 📦 Features
 
-### Prerequisites
+- ✅ Display products in a responsive grid layout
+- 🔍 Search products by name
+- 🎯 Filter by category
+- 📊 Sort by price or rating
+- 🛒 Add to cart with toast notifications
 
-Ensure you have:
+---
 
-- Node.js and npm installed
-- [Vite](https://vitejs.dev/) if you're using it manually (not required if running via npm scripts)
+## 🖼️ Screenshots
 
-### Installation
+| Product Grid | Filter/Sort/Search | Add to Cart |
+|--------------|---------------------|--------------|
+| ![screenshot1](./screenshots/grid.png) | ![screenshot2](./screenshots/filter.png) | ![screenshot3](./screenshots/cart.png) |
+
+> _📌 (Add actual screenshots in a `/screenshots` folder)_
+
+---
+
+## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/product-list.git
-cd product-list
+git clone https://github.com/LavanyaCS/Product-listing-using-React.git
+cd Product-listing-using-React
 npm install
+npm run dev
