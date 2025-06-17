@@ -46,7 +46,7 @@ function Products() {
         else if (sortBy === 'rating_desc') {
             filtered = [...filtered].sort((a, b) => b.rating.rate - a.rating.rate);
         }
-        else {
+        else if (sortBy === 'default'){
             filtered = [...allproduct];
         }
         setProducts(filtered);
@@ -86,7 +86,7 @@ function Products() {
                     <div className="flex justify-end w-3/5">
                         <div className="flex justify-between gap-4 items-center">Sort By:<select value={sortBy}
                             onChange={e => setSortBy(e.target.value)}
-                            className="border px-2 py-1 rounded"> <option value="">Default</option>
+                            className="border px-2 py-1 rounded"> <option value="default">Default</option>
                             <option value="price_asc">Price: Low to High</option>
                             <option value="price_desc">Price: High to Low</option>
                             <option value="rating_asc">Rating: Low to High</option>
